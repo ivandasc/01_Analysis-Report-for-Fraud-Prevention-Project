@@ -1,24 +1,52 @@
-# Projeto de Análise de Dados de Fraude em Cartões de Crédito
+import gdown
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from mpl_toolkits.mplot3d import Axes3D
 
-Este projeto realiza uma análise exploratória de dados (EDA) em um conjunto de dados de transações de cartão de crédito, com o objetivo de detectar fraudes. O dataset utilizado é público e pode ser baixado diretamente do Google Drive.
+def main():
+    # Baixe o arquivo do Google Drive
+    url = 'https://drive.google.com/uc?id=19pvynfhP_e93GyddZbNam6Ju7gXStz8G'
+    output = 'data/creditcard.csv'
+    gdown.download(url, output, quiet=False)
 
-## Objetivos
+    # Carregue o arquivo CSV para um DataFrame
+    df = pd.read_csv(output)
 
-- Carregar e visualizar os dados.
-- Realizar uma análise exploratória básica.
-- Visualizar distribuições de variáveis numéricas.
-- Criar um gráfico 3D para analisar a relação entre três variáveis selecionadas.
+    # Visualizar as primeiras linhas do DataFrame
+    print("Primeiras linhas do DataFrame:")
+    print(df.head())
 
-## Requisitos
+    # Análise exploratória básica
+    print("\nInformações sobre o DataFrame:")
+    print(df.info())
 
-Para executar este projeto, você precisará das seguintes bibliotecas Python:
+    # Estatísticas descritivas das variáveis numéricas
+    print("\nEstatísticas descritivas das variáveis numéricas:")
+    print(df.describe())
 
-- `gdown`
-- `pandas`
-- `matplotlib`
-- `seaborn`
+    # Histograma de variáveis numéricas
+    print("\nHistograma de variáveis numéricas:")
+    df.hist(figsize=(12, 10))
+    plt.tight_layout()
+    plt.show()
 
-Você pode instalar essas bibliotecas usando o pip:
+    # Gráfico 3D para algumas variáveis
+    print("\nGráfico 3D para algumas variáveis:")
+    fig = plt.figure(figsize=(10, 8))
+    ax = fig.add_subplot(111, projection='3d')
 
-```bash
-pip install -r requirements.txt
+    x = df['V1']
+    y = df['V2']
+    z = df['V3']
+    colors = df['Class']  # Cor por classe
+
+    ax.scatter(x, y, z, c=colors, marker='o', cmap='coolwarm', s=20, alpha=0.6)
+    ax.set_xlabel('V1')
+    ax.set_ylabel('V2')
+    ax.set_zlabel('V3')
+    ax.set_title('Gráfico 3D das Variáveis V1, V2 e V3')
+    plt.show()
+
+if __name__ == "__main__":
+    main()
