@@ -5,7 +5,9 @@ Este projeto realiza uma análise exploratória de dados (EDA) em um conjunto de
 ## Objetivos
 
 - Carregar e visualizar os dados.
+  
     Data Source: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+  
     https://drive.google.com/file/d/19pvynfhP_e93GyddZbNam6Ju7gXStz8G/view?usp=drive_link
 - Realizar uma análise exploratória básica.
 - Visualizar distribuições de variáveis numéricas.
