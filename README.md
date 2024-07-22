@@ -1,6 +1,6 @@
 # Projeto de Análise de Dados de Fraude em Cartões de Crédito
 
-Este projeto realiza uma análise exploratória de dados (EDA) em um conjunto de dados de transações de cartão de crédito, com o objetivo de detectar fraudes. O dataset utilizado é público e pode ser baixado diretamente do Google Drive.
+Este projeto realiza uma análise exploratória de dados (EDA) em um conjunto de dados de transações de cartão de crédito, com o objetivo de detectar fraudes. O dataset utilizado é público e pode ser baixado diretamente do Google Drive ou do Kaggle.
 
  Data Source: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
   
