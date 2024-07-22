@@ -5,6 +5,8 @@ Este projeto realiza uma análise exploratória de dados (EDA) em um conjunto de
 ## Objetivos
 
 - Carregar e visualizar os dados.
+    Data Source: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+    https://drive.google.com/file/d/19pvynfhP_e93GyddZbNam6Ju7gXStz8G/view?usp=drive_link
 - Realizar uma análise exploratória básica.
 - Visualizar distribuições de variáveis numéricas.
 - Criar um gráfico 3D para analisar a relação entre três variáveis selecionadas.
@@ -28,8 +30,7 @@ notebooks/analise_exploratoria.ipynb: Jupyter Notebook com a análise.
 README.md: Descrição do projeto e instruções.
 requirements.txt: Arquivo de requisitos com as dependências do projeto.
 Como Executar
-1. Navegue até o diretório src:
-cd src
+1. Navegue até o diretório src
 2. Execute o script Python:
 python analise_exploratoria.py
 
@@ -42,6 +43,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 ### Licença
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
 
-Data Source: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
-
-https://drive.google.com/file/d/19pvynfhP_e93GyddZbNam6Ju7gXStz8G/view?usp=drive_link
