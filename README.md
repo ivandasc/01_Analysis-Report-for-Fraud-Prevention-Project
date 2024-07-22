@@ -20,7 +20,6 @@ Para executar este projeto, você precisará das seguintes bibliotecas Python:
 
 Você pode instalar essas bibliotecas usando o pip:
 
-```bash
 pip install -r requirements.txt
 Estrutura do Projeto
 src/analise_exploratoria.py: Código Python para a análise.
