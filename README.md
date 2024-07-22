@@ -2,13 +2,13 @@
 
 Este projeto realiza uma análise exploratória de dados (EDA) em um conjunto de dados de transações de cartão de crédito, com o objetivo de detectar fraudes. O dataset utilizado é público e pode ser baixado diretamente do Google Drive.
 
-## Objetivos
-
-- Carregar e visualizar os dados.
-  
-    Data Source: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+ Data Source: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
   
     https://drive.google.com/file/d/19pvynfhP_e93GyddZbNam6Ju7gXStz8G/view?usp=drive_link
+
+## Objetivos
+
+- Carregar e visualizar os dados. 
 - Realizar uma análise exploratória básica.
 - Visualizar distribuições de variáveis numéricas.
 - Criar um gráfico 3D para analisar a relação entre três variáveis selecionadas.
