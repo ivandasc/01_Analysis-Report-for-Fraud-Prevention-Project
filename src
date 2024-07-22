@@ -1,0 +1,24 @@
+# Projeto de Análise de Dados de Fraude em Cartões de Crédito
+
+Este projeto realiza uma análise exploratória de dados (EDA) em um conjunto de dados de transações de cartão de crédito, com o objetivo de detectar fraudes. O dataset utilizado é público e pode ser baixado diretamente do Google Drive.
+
+## Objetivos
+
+- Carregar e visualizar os dados.
+- Realizar uma análise exploratória básica.
+- Visualizar distribuições de variáveis numéricas.
+- Criar um gráfico 3D para analisar a relação entre três variáveis selecionadas.
+
+## Requisitos
+
+Para executar este projeto, você precisará das seguintes bibliotecas Python:
+
+- `gdown`
+- `pandas`
+- `matplotlib`
+- `seaborn`
+
+Você pode instalar essas bibliotecas usando o pip:
+
+```bash
+pip install -r requirements.txt
