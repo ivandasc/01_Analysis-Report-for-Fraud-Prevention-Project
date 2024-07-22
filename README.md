@@ -42,4 +42,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 ### Licença
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
 
+Data Source: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
+https://drive.google.com/file/d/19pvynfhP_e93GyddZbNam6Ju7gXStz8G/view?usp=drive_link
