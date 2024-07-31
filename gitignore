@@ -1,0 +1,20 @@
+# Diretórios e arquivos temporários
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Arquivos de configuração do IDE
+.vscode/
+.idea/
+
+# Arquivos de dados baixados
+data/
+*.csv
+
+# Arquivos de logs
+*.log
+
+# Ambiente virtual
+venv/
