@@ -1,47 +1,55 @@
-# Projeto de Análise de Dados de Fraude em Cartões de Crédito
+# Análise de Dados de Cartões de Crédito
 
-Este projeto realiza uma análise exploratória de dados (EDA) em um conjunto de dados de transações de cartão de crédito, com o objetivo de detectar fraudes. O dataset utilizado é público e pode ser baixado diretamente do Google Drive ou do Kaggle.
+Este projeto realiza uma análise exploratória de dados de um conjunto de dados de cartões de crédito. O código baixa um arquivo CSV do Google Drive, carrega os dados em um DataFrame do pandas, realiza uma análise exploratória e gera visualizações.
 
- Data Source: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
-  
-    https://drive.google.com/file/d/19pvynfhP_e93GyddZbNam6Ju7gXStz8G/view?usp=drive_link
+## Tecnologias Utilizadas
 
-## Objetivos
+- **Python**
+- **pandas**: Para manipulação e análise de dados.
+- **matplotlib**: Para geração de gráficos.
+- **seaborn**: Para visualizações estatísticas.
+- **gdown**: Para download de arquivos do Google Drive.
 
-- Carregar e visualizar os dados. 
-- Realizar uma análise exploratória básica.
-- Visualizar distribuições de variáveis numéricas.
-- Criar um gráfico 3D para analisar a relação entre três variáveis selecionadas.
+## Funcionalidades
 
-## Requisitos
+- **Download do arquivo CSV**: O script baixa o arquivo CSV do Google Drive.
+- **Carregamento de Dados**: Carrega os dados em um DataFrame do pandas.
+- **Análise Exploratória**: Realiza uma análise básica dos dados.
+- **Visualizações**:
+  - Histogramas das variáveis numéricas.
+  - Gráfico 3D das variáveis `V1`, `V2`, e `V3`.
 
-Para executar este projeto, você precisará das seguintes bibliotecas Python:
+## Instalação
 
-- `gdown`
-- `pandas`
-- `matplotlib`
-- `seaborn`
+1. **Clone este repositório**:
+   ```bash
+   git clone https://github.com/seu_usuario/seu_repositorio.git
+Navegue para o diretório do projeto:
 
-Você pode instalar essas bibliotecas usando o pip:
+bash
+Copiar código
+cd seu_repositorio
+Crie e ative um ambiente virtual (opcional, mas recomendado):
 
+bash
+Copiar código
+python -m venv venv
+source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
+Instale as dependências:
+
+bash
+Copiar código
 pip install -r requirements.txt
-Estrutura do Projeto
-src/analise_exploratoria.py: Código Python para a análise.
-data/creditcard.csv: Dataset utilizado para a análise.
-notebooks/analise_exploratoria.ipynb: Jupyter Notebook com a análise.
-README.md: Descrição do projeto e instruções.
-requirements.txt: Arquivo de requisitos com as dependências do projeto.
-Como Executar
-1. Navegue até o diretório src
-2. Execute o script Python:
-python analise_exploratoria.py
+Uso
+Para executar o script, use o seguinte comando:
 
-### Conclusão
-Este projeto demonstra como realizar uma análise exploratória básica em um conjunto de dados de transações de cartão de crédito, além de criar visualizações para entender melhor os dados e identificar possíveis fraudes. As ferramentas e técnicas utilizadas podem ser aplicadas a outros conjuntos de dados para realizar análises similares.
+bash
+Copiar código
+python seu_script.py
+Isso irá baixar o arquivo CSV, carregar os dados e gerar as visualizações.
 
-### Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias ou sugestões para este projeto.
+Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
 
-### Licença
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
 
+Certifique-se de substituir `seu_usuario`, `seu_repositorio`, `seu_script.py`, e `seu_email@exemplo.com` pelos valores apropriados para o seu projeto.
